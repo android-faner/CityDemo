@@ -1,2 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_9a68fdb69848513c4ca3c3724d26f65b50fbde55/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5703c32bc0725c3aa71fa89ed0be605001fb3c11">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0b13a24a97057c925ce359ba607bf36ee47cbebf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_808566696e892e66b88e197e8c0c058173ab4852/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_c7c59aa340f902ae778a42276e54a67b0860606a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_051d45be46c91bacbd5ddf8f8cba272f185b0ec1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/.gradle/caches/modules-2/files-2.1/com.github.promeg/tinypinyin/1.0.0/a48301534bbc8eea481f61fa8fbdee80eca49d15/tinypinyin-1.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a48301534bbc8eea481f61fa8fbdee80eca49d15">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/tinypinyin-1.0.0_8233ef98c2c23e7143cb6d5120ec24c1f4c47b33/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_bd7944b1c80f457caa391362a3247fadf1b02b9c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_3e276bfcdb96112b046ae96821caa6a9b1d39829/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.0_27590eca6692006a106c40a5fd6d61295eb8e8b5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_6d9d7736a40abbb997f5d8f25d4098e0f7416c3c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kevin/CityDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dc9c86f983d0f05970d3fe83a0b448d4b579ff97">
+        <dex dex="/Users/kevin/CityDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eef2730ad542b4850c1e9b08fea94b3d2db0cbf4/classes.dex" />
+    </item>
+
+</items>
