@@ -7,8 +7,8 @@
 
     <include layout="@layout/layout_sticky_header_view" />
 
-    <RelativeLayout
-        android:id="@+id/rl_content_wrapper"
+    <FrameLayout
+        android:id="@+id/fl_content_wrapper"
         android:layout_width="match_parent"
         android:layout_height="40dp">
 
@@ -16,12 +16,12 @@
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:text="name"
             android:textColor="@color/font_text"
             android:textSize="15sp" />
 
-    </RelativeLayout>
+    </FrameLayout>
 
 </LinearLayout>

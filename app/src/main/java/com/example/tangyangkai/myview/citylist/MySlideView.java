@@ -1,4 +1,4 @@
-package com.example.tangyangkai.myview;
+package com.example.tangyangkai.myview.citylist;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,6 +10,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 
+import com.example.tangyangkai.myview.R;
 import com.example.tangyangkai.myview.citylist.CityActivity;
 
 /**
@@ -65,11 +66,11 @@ public class MySlideView extends View {
         super.onDraw(canvas);
         paint.setColor(backgroundColor);
         canvas.drawRect(0, 0, (float) mWidth, mHeight, paint);
-        for (int i = 0; i < CityActivity.pinyinList.size(); i++) {
-            String textView = CityActivity.pinyinList.get(i);
+        for (int i = 0; i < CityActivity.firstCityPinYinList.size(); i++) {
+            String textView = CityActivity.firstCityPinYinList.get(i);
             if (i == position - 1) {
                 paint.setColor(getResources().getColor(R.color.error_color));
-                selectTxt = CityActivity.pinyinList.get(i);
+                selectTxt = CityActivity.firstCityPinYinList.get(i);
                 listener.showTextView(selectTxt, false);
             } else {
                 paint.setColor(getResources().getColor(R.color.white));
@@ -77,7 +78,7 @@ public class MySlideView extends View {
             paint.setTextSize(40);
             paint.getTextBounds(textView, 0, textView.length(), mBound);
             canvas.drawText(textView, (mWidth - mBound.width()) * 1 / 2, mTextHeight - mBound.height(), paint);
-            mTextHeight += mHeight / CityActivity.pinyinList.size();
+            mTextHeight += mHeight / CityActivity.firstCityPinYinList.size();
 
         }
     }
@@ -112,21 +113,21 @@ public class MySlideView extends View {
         switch (action) {
             case MotionEvent.ACTION_DOWN:
                 backgroundColor = getResources().getColor(R.color.font_text);
-                mTextHeight = mHeight / CityActivity.pinyinList.size();
-                position = y / (mHeight / (CityActivity.pinyinList.size() + 1));
+                mTextHeight = mHeight / CityActivity.firstCityPinYinList.size();
+                position = y / (mHeight / (CityActivity.firstCityPinYinList.size() + 1));
                 invalidate();
                 break;
             case MotionEvent.ACTION_MOVE:
                 if (isSlide) {
                     backgroundColor = getResources().getColor(R.color.font_text);
-                    mTextHeight = mHeight / CityActivity.pinyinList.size();
-                    position = y / (mHeight / CityActivity.pinyinList.size() + 1) + 1;
+                    mTextHeight = mHeight / CityActivity.firstCityPinYinList.size();
+                    position = y / (mHeight / CityActivity.firstCityPinYinList.size() + 1) + 1;
                     invalidate();
                 }
                 break;
             case MotionEvent.ACTION_UP:
                 backgroundColor = getResources().getColor(R.color.font_info);
-                mTextHeight = mHeight / CityActivity.pinyinList.size();
+                mTextHeight = mHeight / CityActivity.firstCityPinYinList.size();
                 position = 0;
                 invalidate();
                 listener.showTextView(selectTxt, true);
@@ -157,7 +158,7 @@ public class MySlideView extends View {
         }
         mWidth = width;
         mHeight = height;
-        mTextHeight = mHeight / CityActivity.pinyinList.size();
+        mTextHeight = mHeight / CityActivity.firstCityPinYinList.size();
         setMeasuredDimension(width, height);
     }
 }

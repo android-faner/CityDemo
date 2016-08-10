@@ -23,7 +23,7 @@
         android:layout_height="match_parent">
 
 
-        <com.example.tangyangkai.myview.MySlideView
+        <com.example.tangyangkai.myview.citylist.MySlideView
             android:id="@+id/my_slide_view"
             android:layout_width="30dp"
             android:layout_height="match_parent"
