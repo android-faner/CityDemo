@@ -1,4 +1,4 @@
-package com.example.tangyangkai.myview;
+package com.example.tangyangkai.myview.citylist;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.tangyangkai.myview.CircleTextView;
+import com.example.tangyangkai.myview.MySlideView;
+import com.example.tangyangkai.myview.R;
 import com.github.promeg.pinyinhelper.Pinyin;
 
 import java.util.ArrayList;

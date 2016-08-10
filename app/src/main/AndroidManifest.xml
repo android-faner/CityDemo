@@ -22,7 +22,7 @@
         <activity android:name=".FiveActivity" />
         <activity android:name=".MyScrollViewActivity" />
         <activity android:name=".SevenActivity" />
-        <activity android:name=".CityActivity"></activity>
+        <activity android:name=".citylist.CityActivity"></activity>
     </application>
 
 </manifest>

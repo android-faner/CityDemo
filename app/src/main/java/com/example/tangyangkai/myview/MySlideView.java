@@ -10,6 +10,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 
+import com.example.tangyangkai.myview.citylist.CityActivity;
+
 /**
  * Created by tangyangkai on 16/7/26.
  */
